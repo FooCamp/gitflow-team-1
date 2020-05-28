@@ -19,4 +19,4 @@ All team members should do the following:
 ## Team members
 | Name | Profile            |
 | ---- | ------------------ |
-| Name |[Username](github.link) |
+| Juan Guillermo Galvez |[juang961225](https://github.com/juang961225) |
