@@ -17,6 +17,6 @@ All team members should do the following:
 
 ## Team members
 
-| Name | Profile                               |
-| ---- | ------------------------------------- |
-| Name | [ArleyAV](https://github.com/ArleyAV) |
+| Name                        | Profile                               |
+| --------------------------- | ------------------------------------- |
+| Jesus Arley Valencia Tejada | [ArleyAV](https://github.com/ArleyAV) |
