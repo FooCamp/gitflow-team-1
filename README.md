@@ -17,6 +17,10 @@ All team members should do the following:
 
 ## Team members
 
-| Name       | Profile                                       |
-| ---------- | --------------------------------------------- |
-| juan ortiz | [juan-ortizc](https://github.com/juan-ortizc) |
+| Name                        | Profile                                       |
+| --------------------------- | --------------------------------------------- |
+| Valery                      | [Valuarte](https://github.com/valuarte)       |
+| Juan Guillermo Galvez       | [juang961225](https://github.com/juang961225) |
+| Jesus Arley Valencia Tejada | [ArleyAV](https://github.com/ArleyAV)         |
+| Manuela González            | [manuugm](https://github.com/manuugm)         |
+| Juan David Ortiz            | [juan-ortizc](https://github.com/juan-ortizc) |
