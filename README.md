@@ -16,7 +16,7 @@ All team members should do the following:
 > All code must be clean, well indented and _BEM_ must be used where applicable
 
 ## Team members
-
-| Name                        | Profile                               |
-| --------------------------- | ------------------------------------- |
-| Jesus Arley Valencia Tejada | [ArleyAV](https://github.com/ArleyAV) |
+| Name | Profile            |
+| ---- | ------------------ |
+| Juan Guillermo Galvez       |[juang961225](https://github.com/juang961225) |
+| Jesus Arley Valencia Tejada |[ArleyAV](https://github.com/ArleyAV)         |
