@@ -10,11 +10,11 @@
   padding: 80px 0;
 }
 
-.tittle {
+.sliders__tittle {
   color: white;
 }
 
-.tittle__orange {
+.sliders__tittle--orange {
   color: orangered;
 }
 
@@ -55,7 +55,7 @@
   border: white 1px solid;
 }
 
-.card__buttun--follow {
+.card__buttun--icon {
   margin-right: 10px;
   margin-left: 7px;
 }
@@ -64,32 +64,32 @@
   background-color: slategray;
 }
 
-.knob {
+.icon {
   display: flex;
   align-items: center;
 }
 
-.knob__arrow {
+.icon__arrow {
   font-size: 20px;
-  padding: 10px;
+  padding: 10px 15px;
   border: white 1px solid;
   border-radius: 50%;
   background-color: transparent;
   color: white;
 }
 
-.knob__arrow:hover {
+.icon__arrow:hover {
   background-color: white;
   border: black 2px solid;
   color: black;
 }
 
-.buttons {
+.slider {
   display: inline-block;
   justify-content: center;
   align-self: flex-end;
 }
-.buttons__indicador {
+.slider__indicador {
   border: 1px solid white;
   border-radius: 50%;
   height: 15px;
@@ -97,6 +97,6 @@
   margin: 0 5px;
   background-color: transparent;
 }
-.buttons__indicador:hover {
+.slider__indicador:hover {
   background-color: orangered;
 }

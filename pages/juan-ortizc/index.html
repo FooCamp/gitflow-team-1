@@ -4,71 +4,75 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>Carousel of image</title>
   </head>
-  <body class="carousel">
-    <header class="header-carousel">
-      <h1 class="tittle">OUR <span class="tittle__orange">HOTELS</span></h1>
-    </header>
-    <section>
-      <div class="cards-container">
-        <div class="knob">
-          <button class="knob__arrow"><</button>
+  <body>
+    <section class="carousel">
+      <header class="sliders">
+        <h1 class="sliders__tittle">
+          OUR <span class="sliders__tittle--orange">HOTELS</span>
+        </h1>
+      </header>
+      <div>
+        <div class="cards-container">
+          <div class="icon">
+            <button class="icon__arrow"><</button>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://img.chavetas.es/albums/cuba08/playascuba03.jpg"
+            />
+            <h2 class="card__tittle">CUBA</h2>
+            <ul class="card__text">
+              <li>Melia santiago de cuba</li>
+              <li>Colonial cayo coco</li>
+              <li>Blau marina varadero</li>
+            </ul>
+            <button class="card__buttun">
+              MORE <span class="card__buttun--icon">></span>
+            </button>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://a.cdn-hotels.com/gdcs/production102/d328/e79c53d0-c31d-11e8-825c-0242ac110006.jpg"
+            />
+            <h2 class="card__tittle">NEW YORK</h2>
+            <ul class="card__text">
+              <li>Belvedere</li>
+              <li>Hotel ROW NYC</li>
+              <li>Pennsylvania</li>
+            </ul>
+            <button class="card__buttun">
+              MORE <span class="card__buttun--icon">></span>
+            </button>
+          </div>
+          <div class="card">
+            <img
+              class="card__image"
+              src="https://86087-590828-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/paris-fin-de-semana-1024x683.jpeg"
+            />
+            <h2 class="card__tittle">PARIS</h2>
+            <ul class="card__text">
+              <li>L´Hótel de castiglione</li>
+              <li>Hótel ibis styles paris gare</li>
+              <li>Hótel royal elysées</li>
+            </ul>
+            <button class="card__buttun">
+              MORE <span class="card__buttun--icon">></span>
+            </button>
+          </div>
+          <div class="icon">
+            <button class="icon__arrow">></button>
+          </div>
         </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="https://img.chavetas.es/albums/cuba08/playascuba03.jpg"
-          />
-          <h2 class="card__tittle">CUBA</h2>
-          <ul class="card__text">
-            <li>Melia santiago de cuba</li>
-            <li>Colonial cayo coco</li>
-            <li>Blau marina varadero</li>
-          </ul>
-          <button class="card__buttun">
-            MORE <span class="card__buttun--follow">></span>
-          </button>
+        <div class="slider">
+          <button class="slider__indicador"></button>
+          <button class="slider__indicador"></button>
+          <button class="slider__indicador"></button>
+          <button class="slider__indicador"></button>
         </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="https://a.cdn-hotels.com/gdcs/production102/d328/e79c53d0-c31d-11e8-825c-0242ac110006.jpg"
-          />
-          <h2 class="card__tittle">NEW YORK</h2>
-          <ul class="card__text">
-            <li>Belvedere</li>
-            <li>Hotel ROW NYC</li>
-            <li>Pennsylvania</li>
-          </ul>
-          <button class="card__buttun">
-            MORE <span class="card__buttun--follow">></span>
-          </button>
-        </div>
-        <div class="card">
-          <img
-            class="card__image"
-            src="https://86087-590828-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/2016/01/paris-fin-de-semana-1024x683.jpeg"
-          />
-          <h2 class="card__tittle">PARIS</h2>
-          <ul class="card__text">
-            <li>L´Hótel de castiglione</li>
-            <li>Hótel ibis styles paris gare</li>
-            <li>Hótel royal elysées</li>
-          </ul>
-          <button class="card__buttun">
-            MORE <span class="card__buttun--follow">></span>
-          </button>
-        </div>
-        <div class="knob">
-          <button class="knob__arrow">></button>
-        </div>
-      </div>
-      <div class="buttons">
-        <button class="buttons__indicador"></button>
-        <button class="buttons__indicador"></button>
-        <button class="buttons__indicador"></button>
-        <button class="buttons__indicador"></button>
       </div>
     </section>
   </body>
