@@ -47,7 +47,7 @@ body {
     flex-wrap: wrap;
     height: 100%;
     margin: 2%;
-    width: 15%;
+    width: 20%;
 }
 
 .main__card:hover {
@@ -93,8 +93,6 @@ body {
 .main__button-2 {
     background: transparent;
     border-radius: 100%;
-    border: 1.5% solid #ffffff;
     height: 3%;
     margin: 0.2%;
-    width: 0.5%;
 }
