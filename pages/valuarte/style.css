@@ -1,0 +1,131 @@
+body {
+    background: url("https://www.encicloarte.com/imagenes/%C2%BFQu%C3%A9-es-el-Arte.jpg") #CCC no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; 
+    margin: 0; 
+  }
+
+  .carousel {
+      margin-bottom: 150px;
+  }
+  
+  .carousel__heading {
+      font-size: 42px;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      margin-top: 75px;
+      margin-bottom: 50px;
+  }
+  
+  .carousel__heading--emphasis {
+      color: #4fb4e4;
+  }
+  
+  .cards-container {
+      display: flex;
+      max-width: 1024px;
+      margin: 0 auto 30px; 
+      justify-content: space-between;
+      position: relative;
+  }
+  
+  .card {
+      border-radius: 10px;
+      overflow: hidden;
+      flex-basis: 300px;
+      display: flex;
+      flex-direction: column;
+  }
+  
+  .card__image {
+    width: 100%;
+    display: block;
+    max-height: 200px;
+    flex-grow: 1;
+  }
+  
+  .card__content {
+      background-color: white;
+      padding: 30px 50px 50px;
+      text-align: center;
+      flex-grow: 1;
+
+  }
+  
+  .card__title {
+      margin: 0 0 10px;
+      color: #c912da;
+      font-size: 18px;
+      text-transform: uppercase;
+      text-align: center;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .card__info {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 30px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .card__info li {
+      margin-bottom: 10px;
+  }
+  
+  .card__cta {
+
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      background-color: #006699;
+      padding: 5px 10px;
+      border: none;
+      color: white;
+      text-transform: uppercase;
+  }
+  
+  .arrow {
+      background: transparent;
+      border: none;
+      padding: 0;
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      left: -80px;  
+  }
+  
+  .arrow__image {
+      width: 100%;
+  }
+
+  .arrow--right {
+      right: -80px;
+      left: auto;
+  }
+  
+  .arrow--left {
+      transform: translateY(-50%) rotateY(180deg);
+  }
+
+  .carousel__dots {
+      display: flex;
+      justify-content: center;  
+  }
+
+  .dot {
+      background: white;
+      padding: 0;
+      border: 2px solid black;
+      width: 10px;
+      height: 10px;
+      margin: 0 5px;
+      border-radius: 50%;
+  }
+
+  .dot--active {
+      background: #d140dfa1;
+  }
