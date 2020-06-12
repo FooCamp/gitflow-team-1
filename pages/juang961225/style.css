@@ -25,7 +25,7 @@ body {
     width: 100%;
 }
 
-.main__button {
+.main__arrow {
     align-items: center;
     background: transparent;
     border-radius: 100%;
@@ -33,7 +33,7 @@ body {
     height: 9%;
 }
 
-.main__container-button {
+.main__arrow-tx {
     color: white;
 }
 
@@ -88,9 +88,19 @@ body {
     widows: 100%;;
 }
 
-.main__button-2 {
+.main__indicators {
+    display: flex;
+}
+
+.main__indicator {
     background: transparent;
     border-radius: 100%;
-    height: 3%;
-    margin: 0.2%;
+    margin: 5%;
+    height: 50%;
+    border: solid 2px white;
+}
+
+.main__indicator--one {
+    border: solid 2px gray;
+    background-color:rgb(167, 12, 12);
 }
