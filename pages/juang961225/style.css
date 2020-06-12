@@ -1,23 +1,23 @@
 body {
     margin: 0px;
 }
-.main {
+.slider {
     background-image: url(../juang961225/pictures/forTheHorder.jpg);
     background-position: center;
     display: flex;
     flex-wrap: wrap;
     height:664px;
-    justify-content: center;
+    justify-content:center;
 }
 
-.main__title {
+.slider__title {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 300%;
     text-transform: uppercase;
 }
 
-.main__container {
+.slider__container {
     align-items: center;
     display: flex;
     height: 70%;
@@ -25,20 +25,27 @@ body {
     width: 100%;
 }
 
-.main__arrow {
+.slider__arrow {
     align-items: center;
     background: transparent;
     border-radius: 100%;
     display: flex;
     height: 9%;
+    border: solid 3px white;
 }
 
-.main__arrow-tx {
+.slider__arrow-tx {
     color: white;
+    font-size: 25px;
 }
 
-.main__card {
-    background:rgb(92, 91, 91);
+.slider__arrow-tx:hover {
+    color: gray;
+    padding:3px ;
+}
+
+.slider__card {
+    background: rgba(179, 179, 179, 0.356);
     border-radius: 3%;
     display: flex;
     flex-direction: column;
@@ -48,18 +55,19 @@ body {
     width: 20%;
 }
 
-.main__card:hover {
-    background: rgba(179, 179, 179, 0.479);
+.slider__card:hover {
+    background:rgb(92, 91, 91);
+    padding: 5px;
 }
 
-.main__img {
+.slider__img {
     border-radius: 3% 3% 0% 0%;
     height: 50%;
     width: 100%;
     
 }
 
-.main__card-title {
+.slider__card-title {
     color: rgb(167, 12, 12);
     font-family: Arial, Helvetica, sans-serif;
     font-size:100%;
@@ -68,7 +76,7 @@ body {
     text-transform: uppercase;
 }
 
-.main__content {
+.slider__content {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 80%;
     margin: 0% 5% 0% 5%;
@@ -76,23 +84,23 @@ body {
     text-transform: capitalize;
 }
 
-.main__container-button {
+.slider__container-button {
     display: flex;
     justify-content: center;
 }
 
-.main__button-card {
+.slider__button-card {
     height:90%;
     margin: 0 20% 0 20%;
     padding: 0 10% 0 10%;
     widows: 100%;;
 }
 
-.main__indicators {
+.slider__indicators {
     display: flex;
 }
 
-.main__indicator {
+.slider__indicator {
     background: transparent;
     border-radius: 100%;
     margin: 5%;
@@ -100,7 +108,11 @@ body {
     border: solid 2px white;
 }
 
-.main__indicator--one {
+.slider__indicator:hover {
+    background-color: gray;
+}
+
+.slider__indicator--one {
     border: solid 2px gray;
     background-color:rgb(167, 12, 12);
 }
