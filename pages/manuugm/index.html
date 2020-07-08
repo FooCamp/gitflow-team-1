@@ -11,38 +11,52 @@
 <body>
     <h1 class="heading">Our <span class="heading--emphasis">Skateparks</span></h1>
     <div class="carousel">
-        <div class="card">
-            <img class="card__image" src="./images/woodward-usa.jpg">
-            <div class="card__content">
-                <h2 class="card__title">Woodward USA</h2>
-                <ul class="card__info">
-                    <li>Califotnia</li>
-                    <li>Pensilvania</li>
-                    <li>Salt Lake</li>
-                </ul>
+        <div class="carousel__cards-container">
+            <button class="card__arrow">
+                <img class="card__arrow-img" src="./images/arrow-icon.png">
+            </button>
+            <div class="card">
+                <img class="card__image" src="./images/woodward-usa.jpg">
+                <div class="card__content">
+                    <h2 class="card__title">Woodward USA</h2>
+                    <ul class="card__info">
+                        <li>Califotnia</li>
+                        <li>Pensilvania</li>
+                        <li>Salt Lake</li>
+                    </ul>
+                </div>
             </div>
+            <div class="card">
+                <img class="card__image" src="./images/woodward-mexico.jpg">
+                <div class="card__content">
+                    <h2 class="card__title">Woodward Mexico</h2>
+                    <ul class="card__info">
+                        <li>Rivera Maya</li>
+                        <li>Ciudad de Mexico</li>
+                        <li>Woodward Group</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card__image" src="./images/woodward-europe.jpg">
+                <div class="card__content">
+                    <h2 class="card__title">Woodward Europe</h2>
+                    <ul class="card__info">
+                        <li>Francia</li>
+                        <li>Holanda</li>
+                        <li>España</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="card__arrow card__arrow--right">
+                <img class="card__arrow-img" src="./images/arrow-icon.png">
+            </button>
         </div>
-        <div class="card">
-            <img class="card__image" src="./images/woodward-mexico.jpg">
-            <div class="card__content">
-                <h2 class="card__title">Woodward Mexico</h2>
-                <ul class="card__info">
-                    <li>Rivera Maya</li>
-                    <li>Ciudad de Mexico</li>
-                    <li>Woodward Group</li>
-                </ul>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card__image" src="./images/woodward-europe.jpg">
-            <div class="card__content">
-                <h2 class="card__title">Woodward Europe</h2>
-                <ul class="card__info">
-                    <li>Francia</li>
-                    <li>Holanda</li>
-                    <li>España</li>
-                </ul>
-            </div>
+        <div class="carousel__dots">
+            <button class="carousel__dot"></button>
+            <button class="carousel__dot carousel__dot--active"></button>
+            <button class="carousel__dot"></button>
+            <button class="carousel__dot"></button>
         </div>
     </div>
 </body>
